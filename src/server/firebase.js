@@ -2,8 +2,8 @@ import firebase from "firebase";
 
 //This needs to be changed
 var firebaseConfig = {
-  apiKey: "AIzaSyAWMBLk19v4c_B1jl69OtlJwaqmSGB", // Add API Key
-  databaseURL:"https://one-to-many-videochat-default-rtdb.asia-southeast1.firebasedatabase.app/" // Add databaseURL
+  apiKey: "AIzaSyCPd6L3Qmn8wt5J8vIuK4-JJuT5_tSNPJ4", // Add API Key
+  databaseURL:"https://rxwebrtc-default-rtdb.asia-southeast1.firebasedatabase.app/" // Add databaseURL
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -12,7 +12,7 @@ export const db = firebase;
 
 var firepadRef = firebase.database().ref();
 
-export const userName = prompt("What's your name?");
+export const userName = prompt("Please tell us your name?");
 const urlparams = new URLSearchParams(window.location.search);
 const roomId = urlparams.get("id");
 
