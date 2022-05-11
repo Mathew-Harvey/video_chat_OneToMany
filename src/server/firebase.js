@@ -1,5 +1,6 @@
 import firebase from "firebase";
 
+//This needs to be changed
 var firebaseConfig = {
   apiKey: "AIzaSyAWMBLk19v4c_B1jl69OtlJwaqmSGB", // Add API Key
   databaseURL:"https://one-to-many-videochat-default-rtdb.asia-southeast1.firebasedatabase.app/" // Add databaseURL
