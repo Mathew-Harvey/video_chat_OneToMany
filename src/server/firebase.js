@@ -1,6 +1,5 @@
 import firebase from "firebase";
 
-//This needs to be changed
 var firebaseConfig = {
   apiKey: "AIzaSyCPd6L3Qmn8wt5J8vIuK4-JJuT5_tSNPJ4", // Add API Key
   databaseURL:"https://rxwebrtc-default-rtdb.asia-southeast1.firebasedatabase.app/" // Add databaseURL
