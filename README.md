@@ -4,7 +4,7 @@ Deployed app: https://vide-chat-one-to-many.herokuapp.com/
 ## Usage
 * Run npm install.
 * Add your firebase config details to Server/firebase.js. 
-* Run "npm start devStart" to start the app locally
+* Run "npm start devStart" to start the app locally - (if this fails after a while run 'npm install' again)
  
  ## Setup your own firebase realtime datastore
  * Navigate to: https://firebase.google.com/
@@ -28,5 +28,5 @@ Deployed app: https://vide-chat-one-to-many.herokuapp.com/
  * select geo location
  * start in test mode - can edit the rules to remove the read write permission expiry
  * copy the link at the time of database window - looks like : https://xxxx-xxxx-default-rtdb.asia-southeast1.firebasedatabase.app/
- * Past it into the Server/firebase.js code
+ * Paste it into the Server/firebase.js code
  * You now have linked your database
