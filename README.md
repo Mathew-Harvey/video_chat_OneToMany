@@ -22,7 +22,7 @@ Deployed app: https://vide-chat-one-to-many.herokuapp.com/
  * click 'Authentication' in left hand menu
  * click 'get started'
  * click on the cog icon to the right of 'project overview'
- * see Web API Key - copy this and past it into the Server/firebase.js code
+ * see Web API Key - copy this and paste it into the Server/firebase.js code
  * click on realtime database
  * click on create database
  * select geo location
