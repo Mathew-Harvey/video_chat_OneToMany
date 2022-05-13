@@ -21,41 +21,41 @@ let defaultUserState = {
 
 const servers = {
   //------google ice servers------
-  // iceServers: [
-  //   {
-  //     urls: [
-  //       "stun:stun1.l.google.com:19302",
-  //       "stun:stun2.l.google.com:19302",
-  //       "stun:stun.l.google.com:19302",
-  //       "stun:stun3.l.google.com:19302",
-  //       "stun:stun4.l.google.com:19302",
-  //       "stun:stun.services.mozilla.com",
-  //     ],
-  //   },
-  // ],
-  // iceCandidatePoolSize: 10,
-
-  //------open relay ice server project : https://www.metered.ca/tools/openrelay/  ------
   iceServers: [
     {
-      urls: "stun:openrelay.metered.ca:80",
-    },
-    {
-      urls: "turn:openrelay.metered.ca:80",
-      username: "openrelayproject",
-      credential: "openrelayproject",
-    },
-    {
-      urls: "turn:openrelay.metered.ca:443",
-      username: "openrelayproject",
-      credential: "openrelayproject",
-    },
-    {
-      urls: "turn:openrelay.metered.ca:443?transport=tcp",
-      username: "openrelayproject",
-      credential: "openrelayproject",
+      urls: [
+        "stun:stun1.l.google.com:19302",
+        "stun:stun2.l.google.com:19302",
+        "stun:stun.l.google.com:19302",
+        "stun:stun3.l.google.com:19302",
+        "stun:stun4.l.google.com:19302",
+        "stun:stun.services.mozilla.com",
+      ],
     },
   ],
+  iceCandidatePoolSize: 10,
+
+  //------open relay ice server project : https://www.metered.ca/tools/openrelay/  ------
+  // iceServers: [
+  //   {
+  //     urls: "stun:openrelay.metered.ca:80",
+  //   },
+  //   {
+  //     urls: "turn:openrelay.metered.ca:80",
+  //     username: "openrelayproject",
+  //     credential: "openrelayproject",
+  //   },
+  //   {
+  //     urls: "turn:openrelay.metered.ca:443",
+  //     username: "openrelayproject",
+  //     credential: "openrelayproject",
+  //   },
+  //   {
+  //     urls: "turn:openrelay.metered.ca:443?transport=tcp",
+  //     username: "openrelayproject",
+  //     credential: "openrelayproject",
+  //   },
+  // ],
 };
 
 //------ generate random colour for avitar circle
