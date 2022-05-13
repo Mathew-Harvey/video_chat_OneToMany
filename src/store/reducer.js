@@ -42,17 +42,17 @@ const servers = {
     },
     {
       urls: "turn:openrelay.metered.ca:80",
-      username: "openrelayprojectX",
+      username: "openrelayproject",
       credential: "openrelayproject",
     },
     {
       urls: "turn:openrelay.metered.ca:443",
-      username: "openrelayprojectX",
+      username: "openrelayproject",
       credential: "openrelayproject",
     },
     {
       urls: "turn:openrelay.metered.ca:443?transport=tcp",
-      username: "openrelayprojectX",
+      username: "openrelayproject",
       credential: "openrelayproject",
     },
   ],
